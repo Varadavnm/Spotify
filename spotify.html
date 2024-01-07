@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spotify-like Web Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        header {
+            background-color: #212121;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .playlist {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .playlist-item {
+            width: 200px;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .playlist-item img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #212121;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Spotify-like Web Page</h1>
+    </header>
+
+    <main>
+        <h2>Featured Playlists</h2>
+        <div class="playlist">
+            <div class="playlist-item">
+                <img src="playlist1.jpg" alt="Playlist 1">
+                <p>Playlist 1</p>
+            </div>
+            <div class="playlist-item">
+                <img src="playlist2.jpg" alt="Playlist 2">
+                <p>Playlist 2</p>
+            </div>
+            <!-- Add more playlist items as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Spotify-like Web Page</p>
+    </footer>
+</body>
+</html>
